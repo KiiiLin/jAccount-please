@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "jAccount-please",
+  "version": "1.2.0",
+  "description": "将 sjtu.edu.cn 及全部子域名的会话 Cookie 自动设为持久保存。仅在本机处理。",
+  "minimum_chrome_version": "119",
+  "permissions": ["cookies", "storage"],
+  "host_permissions": ["*://*.sjtu.edu.cn/*"],
+  "incognito": "not_allowed",
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "jAccount-please",
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "jaccount-please",
+  "private": true,
+  "scripts": {
+    "test": "node tests/cookies.test.cjs",
+    "check:popup": "node scripts/check-popup.cjs",
+    "docs:capture": "node scripts/capture-docs.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
