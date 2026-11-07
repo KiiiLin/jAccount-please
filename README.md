@@ -1,5 +1,7 @@
 # jAccount-please
 
+![jAccount-please 横版宣传图](docs/jAccount-please-poster.png)
+
 ## 实现功能
 
 保留学校相关页面的登录信息，避免关闭浏览器后需要重新登录的情况。支持 `sjtu.edu.cn` 及全部子域名。
